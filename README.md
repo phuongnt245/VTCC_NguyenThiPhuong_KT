@@ -1,2 +1,1 @@
-# VTCC_NguyenThiPhuong_KT
- 
+# VTCC_NguyenThiPhuong
