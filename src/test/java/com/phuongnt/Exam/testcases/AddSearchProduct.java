@@ -4,13 +4,10 @@ import com.phuongnt.Exam.pages.LoginPage;
 import com.phuongnt.Exam.pages.ProductDetailPage;
 import com.phuongnt.Exam.pages.ProductListPage;
 import com.phuongnt.common.BaseTest;
+import com.phuongnt.helpers.CaptureHelper;
 import org.testng.annotations.Test;
 
 public class AddSearchProduct extends BaseTest {
-
-    //private LoginPage loginPage;
-    //private ProductListPage productPage;
-//    private ProductDetailPage productDetailPage;
     private String PRODUCT_NAME = "SPA";
     private LoginPage loginPage = new LoginPage();
     ProductListPage productPage = new ProductListPage();
@@ -18,6 +15,8 @@ public class AddSearchProduct extends BaseTest {
 
     @Test
     public void testAddNewProduct() {
+        CaptureHelper.captureScreenshot("addNewProduct");
+        CaptureHelper.startRecord("testAddNewProduct");
 
         //Fluent design pattern
         loginPage.loginCRM("admin@example.com", "123456")
