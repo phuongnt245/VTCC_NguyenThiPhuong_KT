@@ -32,7 +32,7 @@ public class AddNewProduct extends CommonPage {
     public AddNewProduct addNewProduct(String company) {
         new DashboardPage().openAddNewProductPage();
         WebUI.waitForPageLoaded();
-        WebUI.setText(inputProductName, "yenttb");
+        WebUI.setText(inputProductName, "san pham a");
         WebUI.selectItemInDrodown(dropdownCategory, itemCategory);
         WebUI.setText(unit, "KG");
         WebUI.setText(miniQty, "1");
