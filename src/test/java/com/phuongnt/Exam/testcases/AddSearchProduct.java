@@ -11,7 +11,7 @@ public class AddSearchProduct extends BaseTest {
     //private LoginPage loginPage;
     //private ProductListPage productPage;
 //    private ProductDetailPage productDetailPage;
-    private String PRODUCT_NAME = "yenttb";
+    private String PRODUCT_NAME = "SPA";
     private LoginPage loginPage = new LoginPage();
     ProductListPage productPage = new ProductListPage();
     ProductDetailPage productDetailPage = new ProductDetailPage();
